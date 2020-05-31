@@ -1,6 +1,7 @@
 .container{
-	background-image: url(../images/back5.jpg);
+	background-color: white;
 }
-.card{
-	padding-top: 10px;
+.title h1 {
+	text-align: center;
+
 }
