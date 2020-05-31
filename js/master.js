@@ -38,8 +38,11 @@ function getName() {
 	//var dateofBirth="1991-12-09";
 	//var dateofBirth = document.getElementsByName('bday');
 	//var gender= document.getElementsByName("gender");
+	//var gender= document.getElementById("gender").value;
+
+	var gender = document.querySelector('input[name="gender"]:checked').value;
 	var dateofBirth = document.getElementById("bday").value;
-	var gender= document.getElementById("gender").value;
+	
 	console.log(dateofBirth);
 	console.log(gender);
 	

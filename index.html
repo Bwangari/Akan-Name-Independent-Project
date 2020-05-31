@@ -32,8 +32,10 @@
             <div class="input-group-prepend">
               <p class="text-success">Select your gender:</p>
               <label>
-               <input   type="radio" name="gender" id="gender" value="male"> Male
-               <input   type="radio" name="gender" id="gender" value="female" > Female
+                <div id="genders">
+                   <input   type="radio" name="gender" id="gender" value="male"> Male
+                   <input   type="radio" name="gender" id="gender" value="female" > Female
+               </div>
              </label>
            </div>
            <button type="submit" class="btn btn-primary" onclick="getName();">Submit</button>
