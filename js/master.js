@@ -33,9 +33,18 @@ function getDayofWeek(dateofBirth){
 }
 
 function getName() {
-	var gender="female";
-	var dateofBirth ="Dec 9, 1991";
+	
+	//var gender="male";
+	//var dateofBirth="1991-12-09";
+	//var dateofBirth = document.getElementsByName('bday');
+	//var gender= document.getElementsByName("gender");
+	var dateofBirth = document.getElementById("bday").value;
+	var gender= document.getElementById("gender").value;
+	console.log(dateofBirth);
+	console.log(gender);
+	
 	var dayOftheWeek= getDayofWeek(dateofBirth);
+
 	if (gender =="female" && dayOftheWeek == dayofWeekName[0]) {
 		akanName = genderFemale[0];
 	}
@@ -78,7 +87,9 @@ function getName() {
 	else if (gender == "male" && dayOftheWeek == dayofWeekName[6]) {
 		akanName = genderMale[6];
 	}
-	return "You were born on " + dayOftheWeek + " Your Akan Name is " + akanName;
+	alert("You were born on " + dayOftheWeek + " Your Akan Name is " + akanName);
+
+	//var results = "You were born on " + dayOftheWeek + " Your Akan Name is " + akanName;
+	//document.getElementById('results').innerHTML= results;
 
 }
-alert(getName());
