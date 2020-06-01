@@ -4,7 +4,7 @@ var genderMale =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var genderFemale=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 var akanName;
 
-function validate() {
+/*function validate() {
 
 	if( document.myForm.bdays.value =="" ) {
             alert( "Please enter your birthday" );
@@ -12,9 +12,8 @@ function validate() {
             return false;
          }
       return (true);
-    }
+    }*/
 
-    
 
 function getDayofWeek(dateofBirth){
 	var dt = new Date(dateofBirth);
