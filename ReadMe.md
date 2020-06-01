@@ -40,8 +40,14 @@ Saturday: Ama
 
 ## Setup instructions
 --Install code editor example Sublime, Visual studio.
+
 --Ensure that you have mozilla,chrome or safari.
 
 
 ## Technologies used
 --The project is coded in HTML 5, CSS,Javascript and bootstrap 4
+
+## Contact information
+https://github.com/Bwangari
+
+## 
