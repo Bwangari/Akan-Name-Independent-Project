@@ -4,6 +4,18 @@ var genderMale =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var genderFemale=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 var akanName;
 
+function validate() {
+
+	if( document.myForm.bdays.value =="" ) {
+            alert( "Please enter your birthday" );
+            document.myForm.bdays.focus() ;
+            return false;
+         }
+      return (true);
+    }
+
+    
+
 function getDayofWeek(dateofBirth){
 	var dt = new Date(dateofBirth);
 	var day = dt.getDay();
@@ -96,3 +108,12 @@ function getName() {
 	//document.getElementById('results').innerHTML= results;
 
 }
+function validate() {
+
+	if( document.myForm.bdays.value =="" ) {
+            alert( "Please enter your birthday" );
+            document.myForm.bdays.focus() ;
+            return false;
+         }
+      return (true);
+    }
