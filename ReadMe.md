@@ -1,5 +1,5 @@
 ## Project name.
-Find out what is Akan Name .
+Find out what is your Akan Name .
 
 ## Project description.
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their output their Akan Name.
