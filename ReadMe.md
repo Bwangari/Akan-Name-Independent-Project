@@ -1,5 +1,5 @@
 ## Project name.
-Find out what Akan Name is.
+Find out what is Akan Name .
 
 ## Project description.
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their output their Akan Name.
@@ -50,4 +50,3 @@ Saturday: Ama
 ## Contact information
 https://github.com/Bwangari
 
-## 
