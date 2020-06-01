@@ -50,3 +50,5 @@ Saturday: Ama
 ## Contact information
 https://github.com/Bwangari
 
+## Copyright information
+© 2020 Copyright: Beth Wangari
